@@ -16,7 +16,7 @@ import java.util.List;
 public class PlayListSorter {
 
 	private static final String PARENT_CODE_PARAM = "parent-code=\"4247\"";
-	private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM.dd");
+	private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM.dd.yy");
 	private static /* final */ String ADULT_GROUP_NAME_RUS;
 	static {
 		try {
